@@ -228,11 +228,15 @@ class App():
                                 self.my_char.bomb_max += 1
                             self.map[y][x] = ROAD
                             pyxel.play(3,pyxel.sounds[8])
+                            self.messages.append(Message(x*16,y*16,"1000"))
+                            self.score += 1000
                         elif obj == ITEM_LENUP:
                             if self.my_char.bomb_len < 5:
                                 self.my_char.bomb_len += 1
                             self.map[y][x] = ROAD
                             pyxel.play(3,pyxel.sounds[8])
+                            self.messages.append(Message(x*16,y*16,"1000"))
+                            self.score += 1000
             ### スペースキーの判定　：爆弾設置
             if pyxel.btn(pyxel.KEY_SPACE):
                 if self.map[self.my_char.y//16][self.my_char.x//16] != BOMB and self.map[self.my_char.y//16][self.my_char.x//16] != O_GATE:
@@ -269,7 +273,7 @@ class App():
                 self.bombs.remove(bomb)
             elif bomb.count < 0:
                 self.bakuha_check(False,int(bomb.x/16),int(bomb.y/16))
-                pyxel.play(1,pyxel.sounds[2])
+                pyxel.play(2,pyxel.sounds[2])
         for mes in self.messages:     # メッセージの更新
             mes.update()
 
@@ -323,10 +327,10 @@ class App():
                     self.score += 300
                 self.tekis.remove(teki)
                 if len(self.tekis) == 0:
-                    pyxel.play(0,pyxel.sounds[4])
+                    pyxel.play(1,pyxel.sounds[4])
         if round(self.my_char.x / 16) == bx and round(self.my_char.y / 16) == by:
             self.gameover_flag = True
-            pyxel.play(0,pyxel.sounds[5])
+            pyxel.play(1,pyxel.sounds[5])
             self.gameover_counter = 120
             return
 
