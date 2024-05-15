@@ -282,12 +282,12 @@ class App():
                     self.init_stage()
                     return
             ### 自キャラと敵キャラの当たり判定
-#            for teki in self.tekis:
-#                if round(teki.x/16)==self.my_char.x//16 and round(teki.y/16)==self.my_char.y//16:
-#                    self.gameover_flag = True
-#                    pyxel.play(1,pyxel.sounds[5])
-#                    self.gameover_counter = 120
-#                    return
+            for teki in self.tekis:
+                if round(teki.x/16)==self.my_char.x//16 and round(teki.y/16)==self.my_char.y//16:
+                    self.gameover_flag = True
+                    pyxel.play(1,pyxel.sounds[5])
+                    self.gameover_counter = 120
+                    return
 
 
         ### 各オブジェクトの更新処理
