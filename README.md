@@ -12,4 +12,9 @@
 
 動作確認はこちら↓からどうぞ　※Pyxel Web Launcher
 
-https://kitao.github.io/pyxel/wasm/launcher/?run=Hiekichi.BakudanKunPy.BakudanKun
+https://kitao.github.io/pyxel/wasm/launcher/?run=Hiekichi.BakudanKunPy.BakudanKun240
+
+
+ハンドヘルドゲーム機などで実行する方は、pyxappファイルをご利用ください
+
+
