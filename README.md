@@ -18,10 +18,8 @@
 - コンティニュー機能を付けました。EnterキーかSTARTボタンで１面から、スペースキーかAボタンでコンティニューです。
 
 
-#プレイ
-
--動作確認はこちら↓からどうぞ
-![Pyxel Web Launcher](https://kitao.github.io/pyxel/wasm/launcher/?run=Hiekichi.BakudanKunPy.BakudanKun240)
-![ハンドヘルドゲーム機用(pyxappファイル)](https://github.com/Hiekichi/BakudanKunPy/blob/main/BakudanKun.pyxapp)
+#動作確認はこちらから
+- ![Pyxel Web Launcher](https://kitao.github.io/pyxel/wasm/launcher/?run=Hiekichi.BakudanKunPy.BakudanKun240)
+- ![ハンドヘルドゲーム機用(pyxappファイル)](https://github.com/Hiekichi/BakudanKunPy/blob/main/BakudanKun.pyxapp)
 
 
