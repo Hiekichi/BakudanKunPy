@@ -272,6 +272,9 @@ class App():
             if pyxel.btnp(pyxel.KEY_RETURN) or pyxel.btnp(pyxel.KEY_SPACE) or pyxel.btnp(pyxel.GAMEPAD1_BUTTON_A) or pyxel.btnp(pyxel.GAMEPAD1_BUTTON_START):
                 if pyxel.btnp(pyxel.KEY_SPACE) or pyxel.btnp(pyxel.GAMEPAD1_BUTTON_A):
                     self.continue_flag = True
+                else:
+                    self.continue_flag = False
+                    self.stage_num = 0
                 self.showtitle_counter = 48
                 pyxel.play(0,pyxel.sounds[7])
             elif self.showtitle_counter > 0:
