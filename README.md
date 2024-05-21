@@ -19,7 +19,7 @@
 
 
 ## 動作確認はこちらから
-- https://kitao.github.io/pyxel/wasm/launcher/?run=Hiekichi.BakudanKunPy.BakudanKun240
+- [Pyxel Web Launcher](https://kitao.github.io/pyxel/wasm/launcher/?run=Hiekichi.BakudanKunPy.BakudanKun240)
 - [ハンドヘルドゲーム機用(pyxappファイル)](https://github.com/Hiekichi/BakudanKunPy/blob/main/BakudanKun.pyxapp)
 
 
