@@ -515,7 +515,7 @@ class App():
 
         ### ★デバッグ用の描画 ###############
         #pyxel.text(100,100,"g_max:{}".format(g_xrange),8)
-        pyxel.text(100,7,"AXISX&Y: {} {}".format(pyxel.btnv(pyxel.GAMEPAD1_AXIS_LEFTX),pyxel.btnv(pyxel.GAMEPAD1_AXIS_LEFTY)),8)
+        #pyxel.text(100,7,"AXISX&Y: {} {}".format(pyxel.btnv(pyxel.GAMEPAD1_AXIS_LEFTX),pyxel.btnv(pyxel.GAMEPAD1_AXIS_LEFTY)),8)
 
         ### ゲームオーバー時の描画処理
         if self.gameover_flag == True:
