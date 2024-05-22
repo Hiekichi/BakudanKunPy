@@ -6,6 +6,9 @@
 
 ![スクリーンショット](https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hiesuke/20240521/20240521150410.png)
 
+![Animation](https://cdn-ak.f.st-hatena.com/images/fotolife/H/Hiesuke/20240522/20240522232958.gif)
+
+
 ## 遊び方など
 - カーソルキーで移動、スペースキーで爆弾設置。
 - 6面しか実装してません（ご要望あれば(無いと思うけど)増やします。コード読んで勝手に増やしてくれてもOK）。
