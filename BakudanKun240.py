@@ -23,7 +23,7 @@ MYCHAR = 9  # 自キャラ
 D = [[0,1],[0,-1],[1,0],[-1,0]]  ## 下、上、右、左
 LAXIS = [pyxel.GAMEPAD1_AXIS_LEFTY,pyxel.GAMEPAD1_AXIS_LEFTY,
          pyxel.GAMEPAD1_AXIS_LEFTX,pyxel.GAMEPAD1_AXIS_LEFTX]
-LAXIS_RANGE = [[30,36000],[-36000,-30],[30,36000],[-36000,-30]]
+LAXIS_RANGE = [[10000,36000],[-36000,-10000],[10000,36000],[-36000,-10000]]
 GPAD = [pyxel.GAMEPAD1_BUTTON_DPAD_DOWN,
         pyxel.GAMEPAD1_BUTTON_DPAD_UP,
         pyxel.GAMEPAD1_BUTTON_DPAD_RIGHT,
@@ -515,6 +515,7 @@ class App():
 
         ### ★デバッグ用の描画 ###############
         #pyxel.text(100,100,"g_max:{}".format(g_xrange),8)
+        pyxel.text(100,7,"AXISX&Y: {} {}".format(pyxel.btnv(pyxel.GAMEPAD1_AXIS_LEFTX),pyxel.btnv(pyxel.GAMEPAD1_AXIS_LEFTY)),8)
 
         ### ゲームオーバー時の描画処理
         if self.gameover_flag == True:
